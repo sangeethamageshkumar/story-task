@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+
+    
+        <h1 class="heading"> Register For More Storys</h1><br>
+        <form>
+        <fieldset>
+           <legend> <h3 style="font-family: Arial, Helvetica, sans-serif; background-color: white;">REGISTER</h3></legend>
+    <label for="sn">Name:</label>
+    <input type="text" name="t1" id="t1" required placeholder="Your name"><br><br>
+    <label for="mail id">Email</label>
+    <input type="email" required><br><br>
+    <label for="pass">Password</label>
+    <input type="password" pattern=".{6,}" required><br><br>
+    <label for="age">Age</label>
+    <input type="number" required><br><br>
+    <label for="gen" >Gender:</label>
+    <input type="radio"required> cute BOY
+    <input type="radio">  cute GIRL<br><br>
+<label for="section">Which kind of genre you like: </label>
+<select class="storyin">
+    <option >Love</option> 
+    <option required>Action</option>
+    <option required>Fantacy</option>
+    <option required>Humor</option>
+</select><br><br>
+    <label for="number" >Contact Number</label>
+    <input type="number" pattern="[0-9]{10}"  required><br>
+
+    <div>
+    <button class="sub">Submit</button>
+   <button class="hom"><a href="index.html">Home</a></button>
+    
+            
+    </div> 
+            
+
+            
+     </fieldset>
+     
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    margin-right: 0px;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left:  10px; ;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(182, 180, 184);
+}
+nav ul {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    width: 35%;
+    margin-right: 50px;
+}
+.rbtn{
+    background-color: rgb(219, 95, 95);
+    color:white; 
+    padding: 5px;
+    border-radius: 7px;
+}
+.showcase{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    position: relative;
+
+}
+.videoin{
+    position: absolute;
+    height: 100%;
+     width: 100%;
+    
+}
+.videocon{
+    
+    margin-top: 90px; 
+    z-index: 1;
+}
+.head{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.benbtn,.cendbtn,.conbtn{
+    background-color: rgb(92, 71, 150);
+    font-size: large;
+    color:blue;
+    border-radius: 8px;
+    padding: 4px;
+    border-right: 5px;
+    border-bottom: 5px;
+
+}
+.mid-sec{
+    margin-top: 800px;
+}
+.benst1,.censt1{
+    margin-left: 300px;
+}
+.benpic1,.benpic2{
+    margin-left: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.st-1::first-letter{
+    color: rgb(84, 148, 207);
+    font-size: 60px;
+    margin-left: 80px;
+}
+.st-2::first-letter{
+    color:rgb(243, 81, 81);
+    font-size: 60px;
+    margin-left: 40px;
+}
+.cienpic-1,.cienpic-2{
+    margin-left: 500px;
+}
+.st-1 ,.st-1-2,.st-1-3,.st-2-1,.st-2-2,.st-2{
+    line-height: 1.5;
+}
+.back-1,.back-2{
+    background-image: url(https://freedesignfile.com/upload/2019/08/Cartoon-farm-landscape-vector.jpg;)
+    
+}
+#foot{
+    text-align: center;
+    background-color:cadetblue ;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}

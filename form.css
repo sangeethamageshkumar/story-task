@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+
+}
+.heading{
+    text-align: center;
+    text-shadow: 0px 0px 12px rgba(0,0,0,0.52);
+}
+form{
+    width:30%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPOtufiBRsqhpI84_Bk-xv7PHodNQB5LGxvA&s);
+    margin-left: 500px;
+    margin-top: 10px;
+    box-shadow: 11px 7px 10px -3px rgba(84,79,79,0.75);
+}
+label{
+    display: block;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+input[type="text"],input[type="email"],input[type="password"],input[type="number"],input[type="radio"],input[type="submit"]
+{
+    margin-left: 10px; margin-top: 5px;
+}
+.storyin,.sub{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sub,.hom{
+    padding: 8px;
+    background-color: rgb(101, 194, 255);
+    color:blue;
+    border-radius: 15px;
+    
+}
